@@ -6,6 +6,7 @@ export default function Joke(props) {
         <div className='space'>
         <p>{props.question}</p>
         <p>{props.answer}</p>
+        <hr/>
         </div>
     )
 }

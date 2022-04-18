@@ -4,9 +4,7 @@ import jokesData from './jokesData'
 
 export default function App() {
     const jokeElements = jokesData.map(joke => {
-        return <Joke 
-        question={joke.question}
-        answer={joke.answer}
+        return <Joke question={joke.question} answer={joke.answer}
         />
     })
     return (
